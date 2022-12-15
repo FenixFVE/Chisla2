@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{ca478526-79c3-4c08-bf86-5c4809b20dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Input">
+      <UniqueIdentifier>{bdac3c8d-71c5-4dfa-bc18-ecd8b61aabcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Output">
+      <UniqueIdentifier>{cbb36992-9706-4539-a0dc-76edf494a7d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="diag_matrix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gauss.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jacobi.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file_manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="step.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="block.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="parameters.txt">
+      <Filter>Files\Input</Filter>
+    </Text>
+    <Text Include="initial_vector.txt">
+      <Filter>Files\Input</Filter>
+    </Text>
+    <Text Include="matrix_A.txt">
+      <Filter>Files\Input</Filter>
+    </Text>
+    <Text Include="matrix_B.txt">
+      <Filter>Files\Input</Filter>
+    </Text>
+    <Text Include="vector_Fa.txt">
+      <Filter>Files\Input</Filter>
+    </Text>
+    <Text Include="vector_x_star.txt">
+      <Filter>Files\Input</Filter>
+    </Text>
+    <Text Include="vector_Fb.txt">
+      <Filter>Files\Input</Filter>
+    </Text>
+    <Text Include="block_output.txt">
+      <Filter>Files\Output</Filter>
+    </Text>
+    <Text Include="gauss_output.txt">
+      <Filter>Files\Output</Filter>
+    </Text>
+    <Text Include="jacobi_output.txt">
+      <Filter>Files\Output</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
